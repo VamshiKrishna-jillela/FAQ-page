@@ -1,0 +1,65 @@
+body{
+    background: url(Screenshot\ 2021-02-17\ 131518.jpg);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordian{
+    background-color: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 0 3px;
+    width:40%;
+    transition: 0.5s;
+}
+
+.accordian-title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.question{
+    font-size:1.4rem;
+    border-bottom: 2px black solid;
+    margin-bottom:15px;
+    padding: 10px;
+    font-weight:bold;
+    position: relative;
+}
+
+.question::after{
+    content: '+';
+    position:absolute;
+    font-size: 1.8rem;
+    right:15px;
+}
+
+.answer{
+    display: none;
+}
+
+.js{
+    font-size:1.2rem;
+}
+.ajs{
+    display: block;
+    transition: opacity 0.3s, visibility 0.3s;
+    position: relative;
+    transition: .5s;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+child {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
