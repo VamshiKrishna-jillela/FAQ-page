@@ -1,5 +1,5 @@
 body{
-    background: url(Screenshot\ 2021-02-17\ 131518.jpg);
+    background: url(Screenshot\ 2021-02-17\ 131518.jpg)no-repeat center center/cover;
     height:100vh;
     display: flex;
     justify-content: center;
